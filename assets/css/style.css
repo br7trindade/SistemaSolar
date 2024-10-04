@@ -8,25 +8,30 @@ body {
 .sun {
     height: 120px;
     width: 120px;
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
+    background-image: url("/img/sol\ J77.png");
     border-radius: 50%;
     background-size: cover;
-    box-shadow: -4px 2px 56px #f9c05f;
+    /*box-shadow: -4px 2px 56px #f9c05f;*/
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    
 
 }
+
+
+
 
 .mercury {
     height: 30px;
     width: 30px;
     /*background-color: rgb(31, 25, 101);*/
-    background-image: url("/img/Mercurio.jpg");
+    background-image: url("/img/Mercurio\ correto.jpg");
     border-radius: 50%;
     background-size:cover ;
-    box-shadow: -4px 2px 56px #f9c05f;
+    box-shadow: -4px 2px 56px #37b9f0;
     position: absolute;
     left: 46%;
     top: 42%;
@@ -114,9 +119,9 @@ p {
     height: 50px;
     width: 50px;
     /*background-color: rgb(232, 241, 71);*/
-    background-image: url("");
+    background-image: url("/img/Terra.jpg");
     border-radius: 50%;
-    background-size: ;
+    background-size: cover;
     box-shadow: -4px 2px 56px #09148d;
     position: absolute;
     left: 44%;
@@ -156,7 +161,9 @@ p {
 
     height: 10px;
     width: 10px;
-    background-color: white;
+    /*background-color: white;*/
+    background-image: url("/img/lua\ 1.jpg");
+    background-size: cover;
     border-radius: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -179,10 +186,11 @@ p {
 .marte{
     height: 40px;
     width: 40px;
-    background-color: rgb(141, 21, 73);
+    /*background-color: rgb(141, 21, 73);*/
+    background-image: url("/img/Mercurio.jpg");
     border-radius: 50%;
-    background-size: ;
-    box-shadow: -4px 2px 56px #f9c05f;
+    background-size: cover;
+    box-shadow: -4px 2px 56px #ec280e;
     position: absolute;
     left: 46.5%;
     top: 46.5%;
@@ -209,10 +217,11 @@ p {
     
     height: 40px;
     width: 40px;
-    background-color: rgb(180, 23, 120);
+    /*background-color: rgb(180, 23, 120);*/
+    background-image: url("/img/Jupiter.jpg");
     border-radius: 50%;
-    background-size: ;
-    box-shadow: -4px 2px 56px #f9c05f;
+    background-size: cover;
+    box-shadow: -4px 2px 56px #f0efef;
     position: absolute;
     left: 45%;
     top: 45%;
@@ -238,10 +247,11 @@ p {
 .saturno{
     height: 60px;
     width: 60px;
-    background-color: rgb(42, 194, 39);
+    /*background-color: rgb(42, 194, 39);*/
+    background-image: url("/img/Saturno.png");
     border-radius: 50%;
-    background-size: ;
-    box-shadow: -4px 2px 56px #f9c05f;
+    background-size: cover;
+   
     position: absolute;
     left: 45%;
     top: 45%;
