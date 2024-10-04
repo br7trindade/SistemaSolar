@@ -22,9 +22,10 @@ body {
 .mercury {
     height: 30px;
     width: 30px;
-    background-color: rgb(31, 25, 101);
+    /*background-color: rgb(31, 25, 101);*/
+    background-image: url("/img/Mercurio.jpg");
     border-radius: 50%;
-    background-size: ;
+    background-size:cover ;
     box-shadow: -4px 2px 56px #f9c05f;
     position: absolute;
     left: 46%;
@@ -80,10 +81,11 @@ p {
 
     height: 40px;
     width: 40px;
-    background-color: rgb(33, 137, 83);
+    /*background-color: rgb(33, 137, 83);*/
+    background-image: url("/img/venus.jpg");
     border-radius: 50%;
-    background-size: ;
-    box-shadow: -4px 2px 56px #f9c05f;
+    background-size:cover ;
+    box-shadow: -4px 2px 56px #f1f95f;
     position: absolute;
     left: 40%;
     top: 42%;
@@ -111,7 +113,8 @@ p {
 
     height: 50px;
     width: 50px;
-    background-color: rgb(232, 241, 71);
+    /*background-color: rgb(232, 241, 71);*/
+    background-image: url("");
     border-radius: 50%;
     background-size: ;
     box-shadow: -4px 2px 56px #09148d;
