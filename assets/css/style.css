@@ -277,9 +277,10 @@ p {
 .urano{
     height: 50px;
     width: 50px;
-    background-color: rgb(214, 76, 214);
+    /*background-color: rgb(214, 76, 214);*/
+    background-image: url("/img/Urano.jpg");
     border-radius: 50%;
-    background-size: ;
+    background-size:cover;
    
     position: absolute;
     left: 38%;
@@ -310,9 +311,10 @@ p {
 .netuno{
     height: 40px;
     width: 40px;
-    background-color: rgb(221, 111, 37);
+    /*background-color: rgb(221, 111, 37);*/
+    background-image: url("/img/netuno.jpg");
     border-radius: 50%;
-    background-size: ;
+    background-size: cover;
     box-shadow: -4px 2px 56px #9581c1;
     position: absolute;
     left: 48%;
